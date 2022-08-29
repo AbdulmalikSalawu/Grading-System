@@ -1,0 +1,52 @@
+body{
+    background-color: blue !important;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+.conditional{
+    height: 310px;
+    background-color: rgb(107, 25, 25);
+    border-radius: 8px;
+    box-shadow: 2px 0px 15px 0;
+}
+.text-center{
+    color: rgb(185, 177, 177);
+    font-size: 40px;
+}
+input{
+    font-family: cursive !important;
+    background-color: rgb(1, 1, 22);
+    border: thin solid white !important;
+    color: white;
+    border-radius: 8px;
+    height: 50px;
+    border: none;
+    position: relative;
+    top: 20px;
+    font-size: 28px !important;
+}
+button{
+    height: 50px;
+    font-size: 26px !important;
+    font-family: 'Times New Roman', Times, serif !important;
+    background-color: rgb(126, 123, 123);
+    border-radius: 5px !important;
+}
+#disp{
+    margin-top: 15%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+}
+@media screen and (max-width: 770px){
+    .conditional{
+        width: 85%;
+    }
+    button, input{
+        font-size: 18px !important;
+    }
+    button{
+        width: 44% !important;
+    }
+}

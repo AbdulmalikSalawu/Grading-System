@@ -8,7 +8,7 @@ h1{
     height: 310px;
     background-color: rgb(107, 25, 25);
     border-radius: 8px;
-    box-shadow: 2px 0px 15px 0;
+    width: 400px !important;
 }
 .text-center{
     color: rgb(185, 177, 177);
@@ -30,8 +30,12 @@ button{
     height: 50px;
     font-size: 26px !important;
     font-family: 'Times New Roman', Times, serif !important;
-    background-color: rgb(126, 123, 123);
+    background-color: rgb(8, 8, 8);
     border-radius: 5px !important;
+}
+button:hover{
+    background-color: rgb(9, 102, 102) !important;
+    color: black !important;
 }
 #disp{
     margin-top: 15%;
@@ -41,7 +45,7 @@ button{
 }
 @media screen and (max-width: 770px){
     .conditional{
-        width: 85%;
+        width: 85% !important;
     }
     button, input{
         font-size: 18px !important;

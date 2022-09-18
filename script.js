@@ -30,7 +30,7 @@ else if(studentScore<=40 && studentScore>30){
     disp.style.color = ""
     dSong.play("average.mp3")
 }
-else if(studentScore<=30 && studentScore>0){
+else if(studentScore<=30 && studentScore>-1){
     disp.innerText = "F fail"
     disp.style.color = "red"
     fSong.play("fail.m4a")

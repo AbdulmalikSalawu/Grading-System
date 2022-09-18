@@ -1,14 +1,20 @@
 body{
-    background-color: blue !important;
+    background-color: #2d2d2d !important;
 }
 h1{
     font-family: 'Times New Roman', Times, serif;
 }
 .conditional{
     height: 310px;
-    background-color: rgb(107, 25, 25);
-    border-radius: 8px;
+    /* border-radius: 8px; */
     width: 400px !important;
+    /* background: rgba(240, 236, 236, 0.06); */
+    background: rgba(245, 242, 242, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.9px);
+    -webkit-backdrop-filter: blur(1.9px);
+    border: 1px solid rgba(255, 255, 255, 0.26); 
 }
 .text-center{
     color: rgb(185, 177, 177);
@@ -16,21 +22,21 @@ h1{
 }
 input{
     font-family: cursive !important;
-    background-color: rgb(1, 1, 22);
+    background-color: black;
     border: thin solid white !important;
     color: white;
     border-radius: 8px;
     height: 50px;
     border: none;
     position: relative;
-    top: 20px;
+    top: 35px;
     font-size: 28px !important;
 }
 button{
     height: 50px;
     font-size: 26px !important;
     font-family: 'Times New Roman', Times, serif !important;
-    background-color: rgb(8, 8, 8);
+    background-color: rgb(151, 150, 150);
     border-radius: 5px !important;
 }
 button:hover{
